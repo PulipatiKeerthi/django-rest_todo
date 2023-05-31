@@ -1,0 +1,15 @@
+
+#To create Virtual environment
+python -m venv env
+#Activate virtual environment
+env\Scripts\activate
+#install Django
+pip install django
+#install restframework
+pip install djangorestframework
+#To runserver
+python manage.py runserver
+#To make migartions
+python manage.py makemigartions
+#To apply migrations
+python manage.py migarte
